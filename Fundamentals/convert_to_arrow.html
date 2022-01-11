@@ -33,6 +33,8 @@
 
         document.getElementById("hover-this").onmouseout = () => setBackgroundColorById("body", "white");
 
+        document.getElementById("feature").onclick = () => setBackgroundColorById("feature", document.getElementById("color-input").value);
+
         getValueFromId = (id) => document.getElementById(id).value;
 
         setBackgroundColorById = (id, color) => document.getElementById(id).style = "background-color: " + color;
