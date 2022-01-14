@@ -1,0 +1,39 @@
+.flex {
+  display: flex;
+}
+.app {
+  width: 930px;
+  background-color: silver;
+  margin: 20px auto;
+  padding: 20px;
+}
+.header {
+  height: 150px;
+  width: 930px;
+  background-color: #6aa84f;
+  margin-bottom: 20px;
+}
+.nav {
+  height: 500px;
+  width: 200px;
+  background-color: #6fa8dc;
+}
+.main {
+  height: 560px;
+  width: 690px;
+  background-color: #e06666;
+  margin-left: 20px;
+  padding: 10px;
+}
+.subcontents {
+  height: 400px;
+  width: 210px;
+  background-color: #ffd966;
+  margin: 10px;
+}
+.ads {
+  height: 120px;
+  width: 670px;
+  background-color: #b4a7d6;
+  margin: 10px;
+}
